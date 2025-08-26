@@ -3,6 +3,7 @@
 @theme inline {
   --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
 }
+@custom-variant dark (&:where(.dark, .dark *));
 
 @keyframes spotlight {
   0% {
