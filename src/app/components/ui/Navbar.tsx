@@ -7,6 +7,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "motion/react";
+import Image from "next/image";
 
 import React, { useRef, useState } from "react";
 
@@ -235,13 +236,8 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <img
-        src="https://assets.aceternity.com/logo-dark.png"
-        alt="logo"
-        width={30}
-        height={30}
-      />
-      <span className="font-medium text-black dark:text-white">Startup</span>
+      <Image src="/tonykok-logo.svg" alt="logo" width={60} height={60} />
+      {/* <span className="font-medium text-black dark:text-white">Tonykok</span> */}
     </a>
   );
 };
@@ -289,15 +285,15 @@ export const NavbarButton = ({
 export function NavbarV1() {
   const navItems = [
     {
-      name: "Projects",
+      name: "Проекты",
       link: "#projects",
     },
     {
-      name: "Services",
+      name: "Услуги",
       link: "#services",
     },
     {
-      name: "Contact",
+      name: "Контакты",
       link: "#contact",
     },
   ];
@@ -312,7 +308,9 @@ export function NavbarV1() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <NavbarButton variant="primary">
+              <a href="#contact">Связаться</a>
+            </NavbarButton>
           </div>
         </NavBody>
 

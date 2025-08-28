@@ -13,10 +13,7 @@ function Hero() {
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
         />
-        <Spotlight
-          className="-top-68 -right-0 rotate-110 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
+
         <Spotlight
           className="top-10 left-full h-[80vh] w-[50vw]"
           fill="purple"
@@ -46,7 +43,7 @@ function Hero() {
             viewport={{ once: true }}
             className="uppercase tracking-widest text-md text-center text-blue-100 max-w-80"
           >
-            LLP &ldquo;Tonykok&ldquo;
+            ТОО &ldquo;Tonykok&ldquo;
           </motion.h2>
 
           <motion.h1
@@ -56,7 +53,7 @@ function Hero() {
             viewport={{ once: true }}
             className="text-[40px] text-center font-bold md:text-5xl lg:text-6xl my-4"
           >
-            Concrete Solutions for Modern Construction
+            Надёжные решения в строительстве
           </motion.h1>
 
           <motion.p
@@ -66,8 +63,9 @@ function Hero() {
             viewport={{ once: true }}
             className="text-center md:tracking-wider text-sm md:text-lg lg:text-2xl mb-4"
           >
-            We provide reliable building construction, facade solutions, and
-            paving stone works with quality that endures.
+            Мы выполняем бетонные работы, монтаж фасадных панелей, укладку
+            тротуарной плитки и возведение строительных конструкций. Собственный
+            парк техники позволяет нам выполнять проекты любой сложности.
           </motion.p>
         </div>
       </div>

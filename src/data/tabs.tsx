@@ -6,44 +6,50 @@ export type tabProp = {
 export type TabKey = "mission" | "values" | "history";
 
 export const tabs: tabProp[] = [
-  { id: "mission", label: "Our Mission" },
-  { id: "values", label: "Our Values" },
-  { id: "history", label: "Our History" },
+  { id: "mission", label: "Наша миссия" },
+  { id: "values", label: "Наши ценности" },
+  { id: "history", label: "Наша история" },
 ];
 
 export const tabContent: Record<TabKey, React.ReactNode> = {
   mission: (
     <div>
-      <h3 className="text-xl font-bold">Our Mission</h3>
+      <h3 className="text-xl font-bold">Наша миссия</h3>
       <p>
-        Our mission is to deliver durable, innovative, and cost-effective
-        construction solutions that stand the test of time. We aim to exceed
-        client expectations by combining skilled craftsmanship, modern
-        technologies, and a commitment to quality in every project we undertake.
+        Наша миссия — создавать прочные, современные и доступные строительные
+        решения, которые служат десятилетиями. Мы стремимся превзойти ожидания
+        клиентов, сочетая профессионализм, современные технологии и высокое
+        качество на каждом этапе строительства.
       </p>
     </div>
   ),
   values: (
     <div>
-      <h3 className="text-xl font-bold">Our Values</h3>
+      <h3 className="text-xl font-bold">Наши ценности</h3>
       <p>
-        We build more than structures — we build trust. Our core values are
-        integrity, reliability, and excellence. We prioritize safety, respect
-        deadlines, and ensure transparency with our clients at every stage.
-        Sustainability and responsibility guide our decisions, so that every
-        project benefits both people and the environment.
+        Мы строим не только здания — мы строим доверие. Наши основные ценности —
+        честность, надежность и качество. Мы уделяем особое внимание
+        безопасности, соблюдению сроков и прозрачности в отношениях с клиентами.
+        Устойчивое развитие и ответственность лежат в основе наших решений,
+        чтобы каждая работа приносила пользу людям и окружающей среде.
       </p>
     </div>
   ),
   history: (
     <div>
-      <h3 className="text-xl font-bold">Our History</h3>
+      <h3 className="text-xl font-bold">Наша история</h3>
       <p>
-        Founded in 2000, LLP “Tonykok” started as a small team of dedicated
-        builders and has grown into a trusted construction partner in
-        Kazakhstan. Over the years, we have completed hundreds of projects, from
-        residential complexes to industrial facilities, earning a reputation for
-        reliability and quality workmanship.
+        Основанная в 2000 году, компания ТОО «Tonykok» начала свой путь с
+        небольшой команды строителей и выросла в надежного партнёра в сфере
+        строительства в Казахстане. За годы работы мы реализовали десятки
+        проектов — от жилых комплексов до промышленных объектов — и заслужили
+        репутацию надежной и ответственной компании.
+      </p>
+      <p className="mt-3">
+        Сегодня мы активно работаем в городе Атырау и регионе, хорошо понимая
+        специфику местного рынка и потребности наших клиентов. Это позволяет нам
+        предлагать решения, максимально соответствующие условиям и задачам
+        региона.
       </p>
     </div>
   ),

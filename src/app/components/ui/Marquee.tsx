@@ -17,6 +17,13 @@ function LogoMarquee() {
             height={120}
           />
           <Image
+            src="/zeynep-logo.png"
+            alt="ztbo logo"
+            width={120}
+            height={120}
+          />
+
+          <Image
             src="/kmg.svg.png"
             alt="kmg logo"
             width={120}
@@ -38,7 +45,14 @@ function LogoMarquee() {
           />
           <Image src="/logoEni.svg" alt="agip logo" width={120} height={120} />
 
-          <div className="w-10 lg:hidden" />
+          <Image
+            src="/jalindi-qurilis.png"
+            alt="jalindi qurilis logo"
+            width={120}
+            height={120}
+          />
+
+          <div className="w-4 lg" />
         </div>
       </Marquee>
     </div>

@@ -2,37 +2,48 @@ export type CardProp = {
   imgUrl: string;
   title: string;
   description: string;
+  modalText?: string;
 };
 
 export const services: CardProp[] = [
   {
     imgUrl: "/concrete-works.webp",
-    title: "Concrete Works",
+    title: "Бетонные работы",
     description:
-      "High-quality concrete pouring and reinforcement for durable foundations, floors, and structural elements.",
+      "Высококачественная заливка и армирование бетона для прочных фундаментов, полов и конструктивных элементов.",
+    modalText:
+      "Мы выполняем полный спектр бетонных работ: промышленные полы, плиты, колонны и усиленные фундаменты. Используем современные технологии армирования и надежные материалы. Благодаря этому наши конструкции отличаются долговечностью и устойчивостью, идеально подходя как для жилых, так и для промышленных объектов.",
   },
   {
     imgUrl: "/building-construction.jpg",
-    title: "Building Construction",
+    title: "Строительство зданий",
     description:
-      "From residential homes to commercial projects, we deliver reliable, long-lasting buildings on time.",
+      "От жилых домов до коммерческих объектов – возводим надёжные и долговечные здания в срок.",
+    modalText:
+      "Мы реализуем проекты любой сложности: жилые комплексы, коммерческие помещения и промышленные сооружения. Берём на себя весь цикл – от проектирования до сдачи под ключ. Гарантируем соблюдение сроков, высокое качество работ и соответствие всем строительным нормам.",
   },
   {
     imgUrl: "/facade.jpg",
-    title: "Facade Panels",
+    title: "Фасадные панели",
     description:
-      "Modern facade solutions that combine strength and aesthetics, enhancing the look and durability of any building.",
+      "Современные решения для фасадов, сочетающие прочность, эстетику и долговечность.",
+    modalText:
+      "Мы предлагаем монтаж фасадных панелей, обеспечивающих защиту зданий от суровых климатических условий. Наши решения сочетают теплоизоляцию, звукоизоляцию и современный внешний вид, придавая зданиям эстетичность и дополнительную защиту от износа.",
   },
   {
     imgUrl: "/paving-stone.jpg",
-    title: "Paving Stones",
+    title: "Тротуарная плитка",
     description:
-      "Durable paving solutions for streets, sidewalks, and landscapes, designed for both function and visual appeal.",
+      "Надёжные решения для улиц, дворов и ландшафта, сочетающие практичность и внешний вид.",
+    modalText:
+      "Мы изготавливаем и укладываем тротуарную плитку, которая выдерживает большие нагрузки и перепады температур. Используем современные технологии укладки для обеспечения долговечности. Отлично подходит для тротуаров, парковок, дворов и общественных пространств.",
   },
   {
-    imgUrl: "https://placehold.jp/3d4070/ffffff/150x150.png",
-    title: "Project Management",
+    imgUrl: "/heavy-machine.jpg", // тут лучше добавить своё изображение автопарка
+    title: "Собственный автопарк",
     description:
-      "Comprehensive planning and supervision to ensure every project is completed safely, efficiently, and to the highest standards.",
+      "Наличие собственного автопарка позволяет нам оперативно выполнять строительные работы любого масштаба.",
+    modalText:
+      "Мы располагаем собственным автопарком строительной техники и спецтранспорта. Это обеспечивает независимость от сторонних подрядчиков, контроль сроков и высокую скорость выполнения работ. Наличие техники позволяет нам работать эффективно даже на крупных объектах в Атырау и регионе.",
   },
 ];

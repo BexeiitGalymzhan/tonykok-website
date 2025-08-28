@@ -19,7 +19,9 @@ function Stats() {
         <h1 className="font-bold text-6xl text-sky-200">
           {inView && <CountUp end={200} suffix="+" duration={2.5} />}
         </h1>
-        <h2 className="text-xl uppercase tracking-wider">Projects</h2>
+        <h2 className="text-xl uppercase tracking-wider">
+          Реализованных проектов
+        </h2>
       </div>
 
       {/* Years Experience */}
@@ -27,7 +29,7 @@ function Stats() {
         <h1 className="font-bold text-6xl text-sky-200">
           {inView && <CountUp end={15} suffix="+" duration={2.5} />}
         </h1>
-        <h2 className="text-xl uppercase tracking-wider">Years Experience</h2>
+        <h2 className="text-xl uppercase tracking-wider">Лет опыта</h2>
       </div>
 
       {/* Team Members */}
@@ -35,7 +37,9 @@ function Stats() {
         <h1 className="font-bold text-6xl text-sky-200">
           {inView && <CountUp end={100} suffix="+" duration={2.5} />}
         </h1>
-        <h2 className="text-xl uppercase tracking-wider">Team Members</h2>
+        <h2 className="text-xl uppercase tracking-wider">
+          Сотрудников в команде
+        </h2>
       </div>
     </div>
   );

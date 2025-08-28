@@ -29,10 +29,15 @@ export default function Slider() {
         }}
         // extra bottom padding for dots
       >
-        {services.map(({ imgUrl, title, description }, i) => (
+        {services.map(({ imgUrl, title, description, modalText }, i) => (
           <SwiperSlide key={i} className="!h-auto mb-13">
             {/* <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center justify-center text-center"> */}
-            <Card imgUrl={imgUrl} title={title} description={description} />
+            <Card
+              imgUrl={imgUrl}
+              title={title}
+              description={description}
+              modalText={modalText}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

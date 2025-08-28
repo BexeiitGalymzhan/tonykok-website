@@ -5,23 +5,23 @@ import { motion } from "framer-motion";
 const features = [
   {
     id: "01",
-    title: "Experience & Reliability",
-    text: "With over N years in the construction industry, we have successfully delivered projects of all scales and complexities.",
+    title: "Опыт и надежность",
+    text: "Более 15 лет в строительной сфере. Реализовали десятки объектов разной сложности в Атырау и по Казахстану.",
   },
   {
     id: "02",
-    title: "High Quality Work",
-    text: "We use only certified materials and modern technologies to ensure durability, safety, and lasting value.",
+    title: "Высокое качество работ",
+    text: "Используем сертифицированные материалы и современные технологии для прочности, безопасности и долговечности.",
   },
   {
     id: "03",
-    title: "On-Time Delivery",
-    text: "We respect deadlines and guarantee that all projects are completed within the agreed timeframe.",
+    title: "Соблюдение сроков",
+    text: "Мы ценим время клиентов и гарантируем выполнение проектов в оговоренные сроки.",
   },
   {
     id: "04",
-    title: "Transparency & Trust",
-    text: "Detailed estimates, clear communication, and no hidden costs — we build with honesty and integrity.",
+    title: "Прозрачность и доверие",
+    text: "Подробные сметы, честная коммуникация и отсутствие скрытых затрат — мы строим с открытостью и честностью.",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function WhyUs() {
         transition={{ duration: 0.6 }}
         className="uppercase tracking-widest text-lg text-blue-100 max-w-80 mb-2"
       >
-        Why Us
+        Почему выбирают нас
       </motion.h2>
 
       <motion.h1
@@ -45,11 +45,11 @@ export default function WhyUs() {
         transition={{ duration: 0.7, delay: 0.2 }}
         className="text-2xl lg:text-4xl mb-12"
       >
-        Trusted construction, built to last
+        Прочность, проверенная временем.
       </motion.h1>
 
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-[1.2fr_1.8fr] gap-8">
-        {/* Left image block */}
+        {/* Левая колонка с картинкой */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -59,19 +59,20 @@ export default function WhyUs() {
         >
           <Image
             src="/construction.jpg"
-            alt="Modular House"
+            alt="Строительная площадка"
             width={700}
             height={450}
             className="rounded-xl object-cover w-full h-48 sm:h-56 md:h-64 lg:h-[320px]"
           />
           <p className="mt-3 sm:mt-4 text-md text-gray-200">
-            Our company provides a full range of construction services — from
-            design and planning to project handover. We are committed to
-            building structures that are strong, safe, and modern.
+            ТОО «Tonykok Constructions» предоставляет полный комплекс
+            строительных услуг — от проектирования и планирования до сдачи
+            объекта под ключ. Мы строим прочные, современные и безопасные
+            здания, соответствующие всем стандартам.
           </p>
         </motion.div>
 
-        {/* Right grid */}
+        {/* Правая колонка с преимуществами */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {features.map((feature, index) => (
             <motion.div

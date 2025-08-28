@@ -2,12 +2,12 @@ import Slider from "./ui/Slider";
 
 function Services() {
   return (
-    <section id="services" className="relative  pb-25 mt-10 sm:mt-15   ">
+    <section id="services" className="relative  pb-15 pt-10 sm:pt-15   ">
       <h2 className="uppercase tracking-widest text-lg  text-blue-100 max-w-80 mb-2">
-        What we offer
+        Наши услуги
       </h2>
       <h1 className="text-2xl lg:text-4xl mb-5  ">
-        Delivering for Our Clients
+        Мы строим для вашего будущего.
       </h1>
       <Slider />
     </section>

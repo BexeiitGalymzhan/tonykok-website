@@ -15,7 +15,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Tonykok",
-  description: "LLP 'Tonykok' Construction Company",
+  description:
+    "Строительная компания «Tonykok» в Атырау. Бетонные работы, фасадные панели, тротуарная плитка, строительные конструкции. Собственный автопарк и техника.",
+  keywords: [
+    "строительная компания",
+    "бетонные работы",
+    "фасадные панели",
+    "тротуарная плитка",
+    "строительные конструкции",
+    "строительство Атырау",
+    "строительная техника",
+    "Tonykok",
+    "Атырау",
+  ],
 };
 
 export default function RootLayout({

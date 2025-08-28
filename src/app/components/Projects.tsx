@@ -5,10 +5,10 @@ function Projects() {
   return (
     <section id="projects" className="relative pt-10 pb-15">
       <h2 className="uppercase tracking-widest text-lg  text-blue-100 max-w-80 mb-2">
-        projects
+        проекты
       </h2>
       <h1 className="text-2xl lg:text-4xl mb-5  ">
-        Some of Our Latest Projects
+        Наши реализованные проекты
       </h1>
       <div>
         {projects.map((project, index) => (
