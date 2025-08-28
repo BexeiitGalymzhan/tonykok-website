@@ -344,7 +344,7 @@ export function NavbarV1() {
                 variant="primary"
                 className="w-full"
               >
-                Book a call
+                <a href="#contact">Связаться</a>
               </NavbarButton>
             </div>
           </MobileNavMenu>
