@@ -53,7 +53,7 @@ function Contact() {
                 <div>
                   <h4 className="font-medium">Адрес </h4>
                   <a className="hover:text-blue-200">
-                    Атырау, проспект Султана Бейбарса, 450
+                    г.Атырау, проспект Бейбарыс Султан, 450
                   </a>
                 </div>
               </div>
