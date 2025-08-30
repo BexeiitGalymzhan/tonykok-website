@@ -13,7 +13,7 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
           <div>
             <h1 className="text-2xl lg:text-4xl mb-10  ">
-              ТОО &ldquo;Tonykok&ldquo; Constructions
+              ТОО &ldquo;Тоныкөк Құрылыс&ldquo;
             </h1>
             <Tab />
           </div>
